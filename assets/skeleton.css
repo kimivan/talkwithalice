@@ -618,7 +618,6 @@ header .nav:hover {
   background: #F6F3EE;
 }
 
-
 .hero {
   background: #F3EEE7;
   background-image: url(wave2.svg);
@@ -626,7 +625,7 @@ header .nav:hover {
   background-repeat: repeat-x;
   text-align: center;
   Padding-top: 10rem;
-  margin-bottom: 22rem;
+  margin-bottom: 25rem;
 }
 
 .hero-responsive {
@@ -640,7 +639,7 @@ header .nav:hover {
 .content_section {
   padding-top: 4.2rem;
   padding-bottom: 2rem;
-
+  text-align: center;
 }
 
 footer {
@@ -648,6 +647,7 @@ footer {
   padding-top: 8.4rem;
   padding-bottom: 8.4rem;
   margin-top: 4.2rem;
+  text-align: center;
 }
 
 footer p,
@@ -752,6 +752,11 @@ there.
 
   header .nav {
     font-size: 1.1rem;
+  }
+
+  .content_section,
+  footer {
+    text-align: left;
   }
 }
 
