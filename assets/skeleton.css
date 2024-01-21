@@ -335,7 +335,7 @@ input[type="button"] {
   display: inline-block;
   padding: 1.5rem 2.5rem;
   border-radius: 2rem;
-  color: #F3EEE7;
+  color: #fff;
   background: #313131;
   text-align: center;
   font-family: 'Roobert-SemiBold', Helvetica, Arial, sans-serif;
@@ -362,7 +362,6 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   background: #FF9F19;
-  color: #fff;
 }
 
 .button.inverse {
