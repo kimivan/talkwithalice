@@ -581,6 +581,9 @@ hr {
 header {
   padding: 1.5rem 0;
   background: #F3EEE7;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 header .logo {
@@ -624,7 +627,7 @@ header .nav:hover {
   background-position: bottom;
   background-repeat: repeat-x;
   text-align: center;
-  Padding-top: 10rem;
+  Padding-top: 18rem;
   margin-bottom: 25rem;
 }
 
