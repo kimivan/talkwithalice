@@ -264,43 +264,43 @@ h6 {
 }
 
 h1 {
-  font-size: 6.1rem;
+  font-size: 5.3rem;
   line-height: 1.1;
   letter-spacing: -.2rem;
 }
 
 h2 {
-  font-size: 3.9rem;
+  font-size: 3.4rem;
   line-height: 1.1;
   letter-spacing: -.2rem;
 }
 
 h3 {
-  font-size: 3.1rem;
+  font-size: 2.7rem;
   line-height: 1.1;
   letter-spacing: -.1rem;
 }
 
 h4 {
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   line-height: 1.6;
   letter-spacing: 0;
 }
 
 h5 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   letter-spacing: 0;
 }
 
 h6 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   letter-spacing: 0;
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   margin-top: 0;
 }
@@ -333,6 +333,7 @@ input[type="button"] {
   font-family: 'Roobert-Medium', Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
+  font-size: 1.1rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -601,6 +602,7 @@ header .nav {
   font-family: 'Roobert-Medium', Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
+  font-size: 0.9rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -709,46 +711,13 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {
-  h1 {
-    font-size: 5.3rem;
-  }
-
-  h2 {
-    font-size: 3.4rem;
-  }
-
-  h3 {
-    font-size: 2.7rem;
-  }
-
-  h4 {
-    font-size: 1.8rem;
-  }
-
-  h5 {
-    font-size: 1.4rem;
-  }
-
-  h6 {
-    font-size: 1.4rem;
-  }
-
-  p {
-    font-size: 1.4rem;
-  }
-
-  .button {
-    font-size: 1.1rem;
-  }
-
-  header .nav {
-    font-size: 0.9rem;
-  }
-}
+@media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
   h1 {
     font-size: 6.1rem;
   }
@@ -785,9 +754,6 @@ there.
     font-size: 1.1rem;
   }
 }
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
