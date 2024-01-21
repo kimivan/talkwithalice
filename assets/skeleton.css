@@ -333,7 +333,7 @@ input[type="button"] {
   font-family: 'Roobert-Medium', Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -680,6 +680,7 @@ footer h2 {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  text-align: left;
 }
 
 .faq-item-header {
