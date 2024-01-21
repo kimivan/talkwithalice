@@ -364,6 +364,14 @@ input[type="button"]:focus {
   background: #FF9F19;
 }
 
+.button.inverse {
+  background: #FF9F19;
+}
+
+.button.inverse:hover {
+  background: #313131;
+}
+
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
