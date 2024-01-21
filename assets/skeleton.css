@@ -655,16 +655,16 @@ header .nav:hover {
 }
 
 .content_section {
-  padding-top: 4.2rem;
-  padding-bottom: 2rem;
+  padding-top: 5.2rem;
+  padding-bottom: 3rem;
   text-align: center;
 }
 
 footer {
   background: #313131;
-  padding-top: 8.4rem;
-  padding-bottom: 8.4rem;
-  margin-top: 4.2rem;
+  padding-top: 9.4rem;
+  padding-bottom: 9.4rem;
+  margin-top: 5.2rem;
   text-align: center;
 }
 
