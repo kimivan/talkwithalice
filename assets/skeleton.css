@@ -660,9 +660,12 @@ footer {
   text-align: center;
 }
 
-footer p,
 footer h2 {
   color: #fff;
+}
+
+footer p {
+  color: #DEDEDE;
 }
 
 /* Accordion
