@@ -49,6 +49,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roobert-SemiBold';
+  src: url('Roobert-SemiBold.woff2') format('woff2'),
+    url('Roobert-SemiBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 /* Grid
@@ -330,7 +338,7 @@ input[type="button"] {
   color: #fff;
   background: #313131;
   text-align: center;
-  font-family: 'Roobert-Medium', Helvetica, Arial, sans-serif;
+  font-family: 'Roobert-SemiBold', Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   font-size: 1.3rem;
