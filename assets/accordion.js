@@ -1,4 +1,4 @@
-const accordions = document.getElementsByClassName("faq-item-header");
+const accordions = document.getElementsByClassName("accordion-item-header");
 
 for (let i = 0; i < accordions.length; i++) {
     accordions[i].addEventListener("click", function (event) {
