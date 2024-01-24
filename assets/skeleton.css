@@ -500,10 +500,12 @@ footer p {
     font-size: 1.3rem;
   }
 
+  header .button {
+    font-size: 1.1rem;
+  }
+
   .hero {
-
     Padding-top: 18rem;
-
   }
 
   .hero h1,
