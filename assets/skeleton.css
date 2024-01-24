@@ -398,15 +398,15 @@ header .button:hover {
   background-image: url(wave2.svg);
   background-position: bottom;
   background-repeat: repeat-x;
-  text-align: center;
   Padding-top: 18rem;
+  text-align: center;
   margin-bottom: 23rem;
   border-bottom: 1px solid #F3EEE7;
 }
 
 .hero h1,
 .hero h4 {
-  padding: 0 1.5rem;
+  padding: 0;
 }
 
 
@@ -423,7 +423,6 @@ header .button:hover {
   padding-bottom: 3rem;
   text-align: left;
   margin-top: 0;
-
 }
 
 footer {
@@ -511,8 +510,9 @@ footer p {
     font-size: 1.3rem;
   }
 
-  .content_section {
-    text-align: left;
+  .hero h1,
+  .hero h4 {
+    padding: 0 2rem;
   }
 }
 
