@@ -9,14 +9,6 @@
 }
 
 @font-face {
-  font-family: 'Roobert-Light';
-  src: url('Roobert-Light.woff2') format('woff2'),
-    url('Roobert-Light.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Roobert-Medium';
   src: url('Roobert-Medium.woff2') format('woff2'),
     url('Roobert-Medium.woff') format('woff');
@@ -25,9 +17,9 @@
 }
 
 @font-face {
-  font-family: 'Roobert-SemiBold';
-  src: url('Roobert-SemiBold.woff2') format('woff2'),
-    url('Roobert-SemiBold.woff') format('woff');
+  font-family: 'Roobert-Regular';
+  src: url('Roobert-Regular.woff2') format('woff2'),
+    url('Roobert-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -224,7 +216,7 @@ body {
   line-height: 1.5;
   font-weight: normal;
   color: #4D4D4D;
-  font-family: 'Roobert-Light', Helvetica, Arial, sans-serif;
+  font-family: 'Roobert-Regular', Helvetica, Arial, sans-serif;
 }
 
 
