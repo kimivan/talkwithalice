@@ -542,6 +542,7 @@ td {
 }
 
 .header .button {
+  display: none;
   margin: 0;
   background: #FAF8F5;
   color: #313131;
@@ -661,6 +662,18 @@ td {
     padding: 11rem 0 0;
     margin-bottom: 20rem;
     text-align: center;
+  }
+
+  .header .button {
+    display: inline-block;
+    margin: 0;
+    background: #FAF8F5;
+    color: #313131;
+    font-size: 1.1rem;
+  }
+
+  .header .button:hover {
+    background: #EBE2D6;
   }
 
   .hero img {
