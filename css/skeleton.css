@@ -558,7 +558,7 @@ td {
   background-image: url(../images/wave.svg);
   background-position: bottom;
   background-repeat: repeat-x;
-  padding: 11rem 0 0;
+  padding: 6rem 0 0;
   margin-bottom: 20rem;
   text-align: center;
 }
@@ -655,6 +655,11 @@ td {
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
+
+  .hero {
+    padding: 11rem 0 0;
+  }
+
   h1 {
     font-size: 6.1rem;
     line-height: 0.9;
