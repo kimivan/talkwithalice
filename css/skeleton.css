@@ -571,13 +571,13 @@ td {
   padding-top: 0rem;
 }
 
-.divider {
+.section {
   width: 100%;
   background: #fff;
   padding: 5rem 0 2.5rem;
 }
 
-.divider:nth-child(even) {
+.section:nth-child(even) {
   width: 100%;
   background: #FAF8F5;
 }
