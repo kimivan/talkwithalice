@@ -606,10 +606,6 @@ td {
   padding: 1.25rem 0;
 }
 
-.accordion-list li:first-child {
-  padding-top: 0;
-  border: 0;
-}
 
 .accordion-list li h4 {
   margin: 0;
@@ -673,6 +669,11 @@ td {
     top: 23rem;
     margin-top: -23rem;
     padding-top: 1rem;
+  }
+
+  .accordion-list li:first-child {
+    padding-top: 0;
+    border: 0;
   }
 
   h1 {
