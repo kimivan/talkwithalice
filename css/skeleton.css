@@ -558,13 +558,13 @@ td {
   background-image: url(../images/wave.svg);
   background-position: bottom;
   background-repeat: repeat-x;
-  padding: 6rem 0 0;
+  padding: 7rem 0 0;
   margin-bottom: 20rem;
   text-align: center;
 }
 
 .hero img {
-  max-width: 100%;
+  max-width: 95%;
   position: relative;
   top: 23rem;
   margin-top: -23rem;
@@ -658,6 +658,10 @@ td {
 
   .hero {
     padding: 11rem 0 0;
+  }
+
+  .hero img {
+    max-width: 100%;
   }
 
   h1 {
