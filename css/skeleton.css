@@ -559,7 +559,7 @@ td {
   background-position: bottom;
   background-repeat: repeat-x;
   padding: 7rem 0 0;
-  margin-bottom: 20rem;
+  margin-bottom: 18rem;
   text-align: center;
 }
 
@@ -657,7 +657,14 @@ td {
 @media (min-width: 550px) {
 
   .hero {
+    width: 100%;
+    background: #F3EEE7;
+    background-image: url(../images/wave.svg);
+    background-position: bottom;
+    background-repeat: repeat-x;
     padding: 11rem 0 0;
+    margin-bottom: 20rem;
+    text-align: center;
   }
 
   .hero img {
