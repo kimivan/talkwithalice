@@ -566,9 +566,9 @@ td {
 .hero img {
   max-width: 95%;
   position: relative;
-  top: 23rem;
-  margin-top: -23rem;
-  padding-top: 1rem;
+  top: 21rem;
+  margin-top: -21rem;
+  padding-top: 0rem;
 }
 
 .section {
@@ -662,6 +662,10 @@ td {
 
   .hero img {
     max-width: 100%;
+    position: relative;
+    top: 23rem;
+    margin-top: -23rem;
+    padding-top: 1rem;
   }
 
   h1 {
