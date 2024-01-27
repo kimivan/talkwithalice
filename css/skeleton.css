@@ -284,10 +284,12 @@ address {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: #1EAEDB;
+  text-decoration: underline;
 }
 
 a:hover {
   color: #0FA0CE;
+  text-decoration: none;
 }
 
 
@@ -587,17 +589,9 @@ td {
   margin-top: 5rem;
 }
 
-.footer address {
-  color: #DEDEDE;
-}
-
+.footer address,
 .footer a {
   color: #DEDEDE;
-  text-decoration: none;
-}
-
-.footer a:hover {
-  text-decoration: underline;
 }
 
 .accordion-list {
