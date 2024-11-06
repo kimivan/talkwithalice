@@ -541,6 +541,8 @@ td {
   line-height: 1;
   font-family: "Reckless", Arial, Helvetica, sans-serif;
   font-weight: 400;
+  font-size: 3.2rem;
+  letter-spacing: -0.1rem;
 }
 
 .header .button {
@@ -665,7 +667,9 @@ td {
     margin-bottom: 20rem;
     text-align: center;
   }
-
+  .header .logo {
+    font-size: 3.9rem;
+  }
   .header .button {
     display: inline-block;
     margin: 0;
