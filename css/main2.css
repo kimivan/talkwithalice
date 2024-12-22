@@ -1,0 +1,214 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6em;
+    /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    color: #555;
+    background: #fff;
+}
+
+/* Grid */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 80ch;
+    margin: 0 auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+.column,
+.columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.container:after,
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+address {
+    margin: 0 0 2rem;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4.77rem;
+    color: #141413;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -0.1rem;
+}
+
+h2 {
+    font-size: 1.33rem;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: normal;
+    display: inline-block;
+    line-height: 1;
+}
+
+span.heading {
+    font-size: 1.33rem;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: normal;
+    display: block;
+    line-height: 1;
+    margin: 0 0 2rem;
+    padding: 0;
+    letter-spacing: 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    color: #141413;
+    font-size: 1.6rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.large {
+    color: #141413;
+    font-size: 2.76rem;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+.largehero {
+    line-height: 1.4;
+    font-size: 1.92rem;
+}
+
+.small {
+    font-size: 1.6rem;
+}
+
+.small {
+    font-size: 1.4rem;
+}
+
+ul {
+    list-style: none;
+
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-align: center;
+    line-height: 1;
+    text-decoration: none;
+    white-space: nowrap;
+    text-transform: capitalize;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #141413;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    border: 1px solid #141413;
+}
+
+.button:hover,
+.button:focus {
+    color: white;
+    text-decoration: underline;
+}
+
+.button.secondary {
+    background: #fff;
+    border: 1px solid #555;
+    color: #555;
+}
+
+section {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+section.hero {
+    padding: 8rem 0;
+}
+
+.service {
+    text-align: left;
+    background: #f9f9f9;
+    display: block;
+    padding: 2rem;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.service p {
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.navbar li a.active {
+    font-weight: bold;
+    color: #141413;
+}
+
+footer {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+footer p {
+    margin: 0;
+}
