@@ -7,7 +7,7 @@
     <title>Alice Kim | Atlanta Therapist | Counseling</title>
     <!-- General Meta Tags -->
     <meta name="description"
-        content="In-person and virtual therapy for trauma, anxiety, depression, grief, relationships, and identity in Atlanta. Schedule a free consultation today!">
+        content="Providing in-person and virtual therapy for individuals navigating trauma, anxiety, depression, grief, relationships, and identity in Atlanta. Schedule free consultation today!">
     <meta name="keywords"
         content="Therapist Atlanta, Trauma Therapy Atlanta, Anxiety Therapy Atlanta, Depression Therapy Atlanta, Grief Counseling Atlanta, EMDR Therapy Atlanta, Virtual Therapy Atlanta, In-Person Therapy Atlanta, Asian American Therapist">
     <meta name="author" content="Alice Kim, LPC, NCC">
@@ -25,8 +25,7 @@
     <meta name="twitter:title" content="Alice Kim, LPC, NCC - Therapist in Atlanta, GA">
     <meta name="twitter:description"
         content="Providing in-person and virtual therapy for individuals navigating trauma, anxiety, depression, grief, relationships, and identity in Atlanta. Schedule free consultation today!">
-    <!-- Favicon
-         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg">
     <link rel="shortcut icon" href="images/favicon/favicon.ico">
@@ -95,181 +94,196 @@
          }
       </script>
     <!-- Stylesheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main6.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
-    <nav>
-        <ul class="navbar">
-            <li><a class="active" href="./">Home</a></li>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="https://calendly.com/talkwithalice/15-minute-phone-consultation">Schedule Consultation</a>
-            </li>
-        </ul>
-    </nav>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.querySelector(".hamburger");
+            const navLinks = document.querySelector(".nav-links");
+            const icon = hamburger.querySelector("i");
+
+            hamburger.addEventListener("click", () => {
+                navLinks.classList.toggle("active");
+                // Swap icon based on whether the nav is active
+                if (navLinks.classList.contains("active")) {
+                    icon.classList.remove("fa-bars");
+                    icon.classList.add("fa-times");
+                } else {
+                    icon.classList.remove("fa-times");
+                    icon.classList.add("fa-bars");
+                }
+            });
+        });
+    </script>
+    <div class="row">
+        <nav class="navbar">
+            <a href="./" class="logo">Alice Kim</a>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a class="active" href="./">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="https://calendly.com/talkwithalice/15-minute-phone-consultation" target="_blank"
+                        rel="noopener noreferrer">Schedule Free
+                        Consultation</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div class="container">
-        <section class="hero">
-            <div class="row">
-                <h1><span class="heading">Hi, I'm Alice </span>Your Therapist in Atlanta</h1>
-                <p class="largehero">I help individuals navigate
-                    life's toughest challenges—whether it's trauma, anxiety, depression, grief, relationships or
-                    identity exploration. I offer in-person sessions in Atlanta and virtual therapy
-                    across
-                    Georgia.
+        <section class="row">
+            <h1>Hi, I'm Alice</h1>
+            <p class="large">I help individuals navigate life's toughest challenges—whether it's trauma, anxiety,
+                depression, grief,
+                relationships or identity exploration. I offer in-person sessions in Atlanta and virtual therapy across
+                Georgia.
+            </p>
+            <a class="button button-primary" href="https://calendly.com/talkwithalice/15-minute-phone-consultation"
+                target="_blank" rel="noopener noreferrer">Schedule Free Consultation</a>
+            <img class="hero-image" src="images/hero.svg" alt="Alice Kim - Therapist in Atlanta, GA">
+        </section>
+        <section class="row">
+            <h2>How I Can Help</h2>
+            <p>Are you feeling stuck, overwhelmed, or unsure of what's going wrong? In our sessions, you'll find a safe,
+                judgment-free space to explore your emotions and gain valuable insights.
+            </p>
+            <p>I blend empathy with proven therapeutic techniques such as EMDR, CBT, and mindfulness, tailoring our work
+                together to meet your unique needs.
+            </p>
+            <p>Together, we'll uncover what's standing in your way and create a path forward with confidence and
+                clarity.
+            </p>
+        </section>
+        <section class="row">
+            <h2>A Little About Me</h2>
+            <p>As a Brazilian-Korean-American therapist, I deeply understand how culture and identity shape our lives.
+                My
+                multicultural background allows me to empathize with clients from diverse backgrounds, offering a
+                culturally
+                aware and inclusive approach to therapy.
+            </p>
+            <p>Therapy is a safe space to explore your emotions without judgment. I create a warm, welcoming environment
+                where
+                you can feel comfortable discussing the most difficult aspects of your life.
+            </p>
+            <a class="button" href="/about">Learn More About Me</a>
+        </section>
+        <section class="row">
+            <h2>Areas of Expertise</h2>
+            <div class="bento">
+                <h3>Depression Therapy</h3>
+                <p>If you're feeling overwhelmed by sadness or hopelessness, therapy can help uncover the root causes
+                    and
+                    guide
+                    you
+                    toward healing and relief.
                 </p>
-                <a class="button" href="https://calendly.com/talkwithalice/15-minute-phone-consultation">Schedule
-                    free
-                    consultation</a>
+            </div>
+            <div class="bento">
+                <h3>Anxiety and Stress Therapy</h3>
+                <p>If anxiety is taking over your life, we'll work together to identify triggers, manage stress, and
+                    develop
+                    tools
+                    to regain control and find calm.
+                </p>
+            </div>
+            <div class="bento">
+                <h3>EMDR and Trauma Therapy</h3>
+                <p>I specialize in EMDR and trauma-informed therapy, helping you heal from past traumas and reduce their
+                    impact
+                    on
+                    your daily life.
+                </p>
+            </div>
+            <div class="bento">
+                <h3>Grief Counseling</h3>
+                <p>Grief can feel isolating, but therapy offers a safe space to process your emotions and find a path
+                    toward
+                    healing.
+                </p>
+            </div>
+            <div class="bento">
+                <h3>Identity Exploration</h3>
+                <p>Balancing multiple identities can be complex. Together, we'll explore your experiences and help you
+                    embrace
+                    your
+                    true self with confidence and clarity.
+                </p>
+            </div>
+            <div class="bento">
+                <h3>Family and Relationship Dynamics</h3>
+                <p>I can help you navigate family dynamics and relationships, improving communication and fostering
+                    healthier,
+                    more
+                    meaningful connections.
+                </p>
+            </div>
+            <div class="bento">
+                <h3>Individual Counseling</h3>
+                <p>If you're unsure where to start, we can work together to boost your self-confidence, identify your
+                    goals,
+                    and
+                    create a clear path forward.
+                </p>
             </div>
         </section>
-        <section>
-            <div class="row">
-                <h2>How I Can Help</h2>
-                <p class="large">Are you looking for a compassionate therapist in Atlanta who truly understands your
-                    struggles and can guide you through life's challenges?
+        <section class="row">
+            <h2>My Sessions</h2>
+            <div class="bento">
+                <h3>Where do you practice?</h3>
+                <p>I'm part of GROW Counseling, a group practice located in Buckhead, Atlanta.
                 </p>
-                <p>
-                    Whether you're feeling stuck, overwhelmed, or unsure of what's going wrong, I'm here to help.
-                    Therapy with me offers a safe space to explore your emotions, gain valuable insights, and work
-                    toward meaningful, lasting healing. Together, we'll uncover what's standing in your way and create a
-                    path forward with confidence and clarity.
+            </div>
+            <div class="bento">
+                <h3>Where is your office located for in-person therapy?</h3>
+                <address>
+                    2964 Peachtree Rd NW, Suite 760<br>
+                    Atlanta, GA 30305
+                </address>
+            </div>
+            <div class="bento">
+                <h3>How much do sessions cost, and how often are they scheduled?</h3>
+                <p>My session rate is $200 and are typically held on a weekly basis, but the frequency can be adjusted
+                    to
+                    fit
+                    your
+                    scheduling needs.
+                </p>
+            </div>
+            <div class="bento">
+                <h3>Do you accept insurance?</h3>
+                <p>While I do not accept insurance directly, I can provide superbills for clients with PPO or similar
+                    plans,
+                    which
+                    may allow for partial reimbursement.
                 </p>
             </div>
         </section>
-        <section>
-            <div class="row">
-                <h2>Why Choose Me</h2>
-                <p class="large">With years of experience supporting individuals from diverse backgrounds, I offer a
-                    unique and nuanced perspective to therapy.
-                </p>
-                <div class="bento">
-                    <h3>Multicultural Background</h3>
-                    <p>As a Brazilian-Korean-American therapist, I deeply understand how culture and identity shape our
-                        lives. My multicultural background allows me to empathize with clients from diverse backgrounds,
-                        offering a culturally aware and inclusive approach to therapy.
-                    </p>
-                </div>
-                <div class="bento">
-                    <h3>Tailored, Evidence-Based Therapy</h3>
-                    <p>I combine empathy with proven therapeutic methods such as EMDR, CBT, and mindfulness. This
-                        personalized approach ensures we work together in the most effective way to support your healing
-                        and
-                        growth.
-                    </p>
-                </div>
-                <div class="bento">
-                    <h3>Safe and Supportive Space</h3>
-                    <p>Therapy is a safe space to explore your emotions without judgment. I create a warm, welcoming
-                        environment where you can feel comfortable discussing the most difficult aspects of your life.
-                    </p>
-                </div>
-                <a class="button secondary" href="/about">Learn More About Me</a>
-            </div>
+        <section class="row">
+            <h2>Ready to Begin?</h2>
+            <p>Taking the first step toward therapy can feel daunting, but I'm here to support you through it.</p>
+            <p>Click the button below to schedule your free 15-minute phone consultation. We'll discuss your goals,
+                you'll
+                learn
+                more about my approach, and together we'll decide if we're a good fit.
+            </p>
+            <a class="button button-primary" href="https://calendly.com/talkwithalice/15-minute-phone-consultation"
+                target="_blank" rel="noopener noreferrer">Schedule Free Consultation</a>
         </section>
-        <section>
-            <div class="row">
-                <h2>My Services</h2>
-                <p class="large">I offer a variety of therapy services to help you overcome challenges and achieve your
-                    goals.
-                </p>
-                <article class="bento">
-                    <h3>Depression Therapy</h3>
-                    <p>If you're feeling overwhelmed by sadness or hopelessness, therapy can help
-                        uncover the root causes and guide you toward healing and relief.
-                    </p>
-                </article>
-                <article class="bento">
-                    <h3>Anxiety & Stress Therapy</h3>
-                    <p>If anxiety is taking over your life, we'll work together to identify triggers,
-                        manage stress, and develop tools to regain control and find calm.
-                    </p>
-                </article>
-                <article class="bento">
-                    <h3>EMDR & Trauma Therapy</h3>
-                    <p>I specialize in EMDR and trauma-informed therapy, helping you heal from past
-                        traumas and reduce their impact on your daily life.
-                    </p>
-                </article>
-                <article class="bento">
-                    <h3>Grief Counseling</h3>
-                    <p>Grief can feel isolating, but therapy offers a safe space to process your
-                        emotions and find a path toward healing.
-                    </p>
-                </article>
-                <article class="bento">
-                    <h3>Identity Exploration</h3>
-                    <p>Balancing multiple identities can be complex. Together, we'll explore your
-                        experiences and help you embrace your true self with confidence and clarity.
-                    </p>
-                </article>
-                <article class="bento">
-                    <h3>Family and Relationship Dynamics</h3>
-                    <p>I can help you navigate family dynamics and relationships, improving
-                        communication and fostering healthier, more meaningful connections.
-                    </p>
-                </article>
-                <article class="bento">
-                    <h3>Individual Counseling</h3>
-                    <p>If you're unsure where to start, we can work together to boost your
-                        self-confidence, identify your goals, and create a clear path forward.
-                    </p>
-                </article>
-            </div>
+        <section class="row">
+            <h4>Alice Kim, LPC, NCC</h4>
+            <p>Licensed Therapist in Atlanta, GA.</p>
+            <p class="small">&copy; 2025 Alice Kim, LPC, NCC. All rights reserved.</p>
         </section>
-        <section>
-            <div class="row">
-                <h2>My Sessions</h2>
-                <p class="large">I'm available for both virtual and in-person therapy to suit your needs.</p>
-                <div class="bento">
-                    <h3>Where do you practice?</h3>
-                    <p>I'm part of GROW Counseling, a group practice located in Buckhead, Atlanta.
-                    </p>
-                </div>
-                <div class="bento">
-                    <h3>Where is your office located for in-person therapy?</h3>
-                    <address>
-                        2964 Peachtree Rd NW, Suite 760<br>
-                        Atlanta, GA 30305
-                    </address>
-                </div>
-                <div class="bento">
-                    <h3>How much do sessions cost, and how often are they scheduled?</h3>
-                    <p>My session rate is $200. Sessions are typically held on a weekly basis, but the frequency can be
-                        adjusted to fit your scheduling needs.
-                    </p>
-                </div>
-                <div class="bento">
-                    <h3>Do you accept insurance?</h3>
-                    <p>While I do not accept insurance directly, I can provide superbills for clients with PPO or
-                        similar plans, which may allow for partial reimbursement.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="row">
-                <h2>Getting Started Is Easy</h2>
-                <p class="large">Taking the first step toward therapy can feel daunting, but I'm here to support you
-                    through it.
-                </p>
-                <p>Click the button below to schedule your free 15-minute phone consultation. We'll discuss your
-                    goals, you'll learn more about my approach, and together we'll decide if we're a good fit.
-                </p>
-                <a class="button" href="https://calendly.com/talkwithalice/15-minute-phone-consultation">Schedule
-                    free
-                    consultation</a>
-            </div>
-        </section>
-        <footer>
-            <div class="row">
-                <h3>Alice Kim, LPC, NCC</h3>
-                <p>Licensed Therapist in Atlanta, GA.</p>
-            </div>
-            <div class="row">
-                <p class="small">&copy; 2024 Alice Kim, LPC, NCC. All rights reserved.</p>
-            </div>
-        </footer>
     </div>
 </body>
 
